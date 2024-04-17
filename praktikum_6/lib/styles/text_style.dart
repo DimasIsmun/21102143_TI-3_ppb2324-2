@@ -36,7 +36,7 @@ TextStyle kButton1 = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
-TextStyle kButton1 = GoogleFonts.poppins(
+TextStyle kButton2 = GoogleFonts.poppins(
   fontSize: 13,
   fontWeight: FontWeight.w500,
 );
