@@ -1,14 +1,14 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: const Text('Profile'),
+    return Container(
+      child: Container(
+        child: Text('Profile'),
+      ),
     );
   }
 }

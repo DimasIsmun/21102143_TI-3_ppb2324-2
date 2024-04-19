@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import '/styles/colors.dart';
-
-import '../styles/text_style.dart';
-import 'home_page.dart';
-import 'portofolio_page.dart';
-import 'profile_page.dart';
-import 'support_page.dart';
+import 'package:praktikum_06/styles/colors.dart';
+import 'package:praktikum_06/styles/text_style.dart';
+import 'package:praktikum_06/pages/home_page.dart';
+import 'package:praktikum_06/pages/portofolio_page.dart';
+import 'package:praktikum_06/pages/profile_page.dart';
+import 'package:praktikum_06/pages/support_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -19,7 +18,7 @@ class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
   static List<Widget> pages = [
     const HomePage(),
-    const PortfolioPage(),
+    const PortofolioPage(),
     const SupportPage(),
     const ProfilePage(),
   ];

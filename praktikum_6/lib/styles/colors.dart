@@ -1,8 +1,6 @@
-// ignore_for_file: use_full_hex_values_for_flutter_colors
-
 import 'package:flutter/material.dart';
 
-const Color kBgColor = Color(0xFFADC8FF);
+const Color kBgColor = Color(0xFFD1E3FF);
 const Color kBlueRibbon = Color(0xFF3366FF);
 const Color kNightBlack = Color(0xFF2C2C2C);
 const Color kBlack = Color(0xFF000000);

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../styles/colors.dart';
-import '../styles/text_style.dart';
+import 'package:praktikum_06/styles/colors.dart';
+import 'package:praktikum_06/styles/text_style.dart';
 
 class OnBoardingPage extends StatelessWidget {
-  const OnBoardingPage({Key? key}) : super(key: key);
+  const OnBoardingPage({super.key});
   static const nameRoute = '/';
 
   @override
@@ -13,41 +13,36 @@ class OnBoardingPage extends StatelessWidget {
         color: kBgColor.withOpacity(0.5),
         child: Column(
           children: [
-            const SafeArea(
-              child: Image(
-                image: AssetImage('assets/images/ob-money.png'),
-              ),
-            ),
-            const SizedBox(
+            SafeArea(
+                child: Image(
+              image: AssetImage('assets/images/ob-money.png'),
+            )),
+            SizedBox(
               height: 30,
             ),
             Container(
-              padding: const EdgeInsets.all(26),
-              constraints: const BoxConstraints.expand(
-                height: 300,
+              padding: EdgeInsets.all(26),
+              constraints: BoxConstraints.expand(
+                height: 380,
                 width: 315,
               ),
-              decoration: const BoxDecoration(
-                color: kWhite,
-                borderRadius: BorderRadius.all(
-                  Radius.circular(20),
-                ),
-              ),
+              decoration: BoxDecoration(
+                  color: kWhite,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(20),
+                  )),
               child: Column(
                 children: [
                   Text(
                     'Welcome!',
                     style: kHeading5.copyWith(color: kBlack),
                   ),
-                  const SizedBox(
-                    height: 15,
-                  ),
                   Text(
-                    'welcome to Fleet Finance, the easy way to improve your finances and help you control expenses and income',
+                    'Welcome to Fleet Finance, the easy way to improve your finances and help you control expenses and income',
                     style: kSubtitle2.copyWith(color: kSuvaGray),
                     textAlign: TextAlign.center,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 70,
                   ),
                   TextButton(
@@ -55,22 +50,17 @@ class OnBoardingPage extends StatelessWidget {
                       Navigator.pushNamedAndRemoveUntil(
                           context, '/main', (route) => false);
                     },
-                    style: TextButton.styleFrom(
-                      backgroundColor: kBlueRibbon,
-                      padding: const EdgeInsets.symmetric(
-                        vertical: 14,
-                        horizontal: 36,
-                      ),
-                      shape: const RoundedRectangleBorder(
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(10),
-                        ),
-                      ),
-                    ),
                     child: Text(
                       'Get Started',
                       style: kButton1.copyWith(color: kWhite),
                     ),
+                    style: TextButton.styleFrom(
+                        backgroundColor: kBlueRibbon,
+                        padding:
+                            EdgeInsets.symmetric(vertical: 14, horizontal: 36),
+                        shape: RoundedRectangleBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10)))),
                   )
                 ],
               ),
