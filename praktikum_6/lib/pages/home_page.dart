@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Welcome',
+                            'WELCOME',
                             style: kBody1.copyWith(color: kMatterhornBlack),
                           ),
                           Text(

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "625387327144",
+    "project_id": "praktikumfultterfirebase",
+    "storage_bucket": "praktikumfultterfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625387327144:android:31683731619a562b8a3c9d",
+        "android_client_info": {
+          "package_name": "com.example.praktikum_09"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb5mY7quZNTQvg_SEnReW00soPooZXcPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
